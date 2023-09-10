@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bank>
+<customers>
+    <customer>
+        <ID>22543</ID>
+        <firstName>Isha</firstName>
+        <lastName>Limby</lastName>
+        <email>limbuisha122@gmail.com</email>
+        <phone>9800425500</phone>
+        <address>
+            <street>Bibekananda tol</street>
+            <city>Itahari</city>
+            <zip>00112</zip>
+        </address>
+    </customer>
+    <account>
+        <AID>000</AID>
+        <CID>111</CID>
+        <CID>222</CID>
+        <Acctype>saving</Acctype>
+        <balance>2500</balance>
+        
+    </account>
+</customers>
