@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE bank [
+<!ELEMENT costumer (cid,name,address,phone,email)>
+<!ELEMENT cid (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email(#PCDATA)>
+<!ELEMENT account(Aid,bid,cid,Acctype,balance)>
+<!ELEMENT Aid(#PCDATA)>
+<!ELEMENT bid(#PCDATA)>
+<!ELEMENT cid(#PCDATA)>
+<!ELEMENT Acctype(#PCDATA)>
+<!ELEMENT balance(#PCDATA)>
+<!ELEMENT employee(empid,name,designation,doj,salary,address)>
+<!ELEMENT empid(#PCDATA)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT designation(#PCDATA)>
+<!ELEMENT doj(#PCDATA)>
+<!ELEMENT salary(#PCDATA)>
+<!ELEMENT address
+(#PCDATA)>
+]>
+
+
+
+
+
+<bank>
+    <costumer>
+        <cid>1</cid>
+        <name>Isha</name>
+        <address>Itahari</address>
+        <phone>9811223344</phone>
+        <email>ishalimbu8@gmail.com</email>
+    </costumer>
+    <account>
+        <Aid>00</Aid>
+        <bid>11</bid>
+        <cid>22</cid>
+        <Acctype>Saving</Acctype>
+        <balance></balance>
+    </account>
+    <employee>
+    <empid>555</empid>
+    <name>Ram</name>
+    <designation>Manager</designation>
+    <doj>aug 23 2022</doj>
+    <salary>340000</salary>
+    <address>Itahari</address>
+    </employee>
+</bank>
